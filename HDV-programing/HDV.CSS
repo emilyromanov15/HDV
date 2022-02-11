@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body
+{
+background-color: white;
+display: flex;
+justify-content: center;
+align-items: center;
+min-height: 100vh;
+}
+.container
+{
+    position: relative;
+    width: 100%;
+    max-width: 1000px;
+    min-height: 1000px;
+    background: white;
+    margin: 50px;
+    display: grid;
+    grid-template-columns: 1fr  2fr;
+    box-shadow: 0 35px 55px rgba(0, 0, 0, 1);
+}
+.container .left_side
+{
+    position: relative;
+    background: black;
+    padding: 40px;
+    
+}
+.perfiletext
+{
+position: relative;
+display: flex;
+flex-direction: column;
+align-items: center;
+padding-bottom: 20px;
+border-bottom: 1px solid rgba(255,255, 255, 0.2);
+}
+.perfiletext .imgbx
+{
+position: relative;
+width: 200px;
+height: 200px;
+border-radius: 50%;
+overflow: hidden;
+}
+.perfiletext .imgbx   .imagen
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.perfiletext h2
+{
+color:white;
+font-size: 1.5em;
+margin-top: 20px;
+text-transform: uppercase;
+text-align:center ;
+font-weight: 600;
+line-height: 1.4em;
+}
+.perfiletext h2 .span
+{
+    font-size: 0.6em;
+    font-weight: 300;
+}
+
+.contactinfo
+{
+    padding-top: 30px;
+}
+.text
+{
+color:white;
+}
+
+.title 
+{
+    color: white;
+    text-transform:uppercase;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 5px;
+}
+
+.contacinfo ul
+{
+    position: relative;
+}
+.contacinfo ul li
+{
+    position: relative;
+    list-style: none;
+    margin: 10px 0;
+    cursor: pointer;
+}
+.container ul  li span 
+{
+    color: white;
+    font-weight: 300;
+}
+.container .right_side
+{
+    position: relative;
+    background: white;
+    padding: 40px;   
+}
+.about
+{
+    margin-bottom: 50px;
+}
+.about:last-child
+{
+    margin-bottom: 0;
+}
+.title0
+{
+    color: black;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-align: center;
+    margin-top: 40px;
+}
+.title1
+{
+    color: black;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-left: 40px; 
+}
+.title1 h3
+{
+    color: black;
+    font-size: 0em;
+    margin-top: 20px;
+    text-transform: uppercase;
+    text-align:center ;
+    font-weight: 600;
+    line-height: 1.4em;  
+}
+.perfiletext1
+{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+    border-bottom: 1px  solid rgba(19, 18, 18, 0.2); 
+}
+.text1
+{
+    color: black;
+    text-transform: uppercase;
+    letter-spacing: 0px;
+    margin-left: 40px; 
+}
+.text1 h5
+{
+    color: black;
+    font-size: 1em;
+    margin-top: 10px;
+    text-transform: uppercase;
+    font-weight: 600;
+    line-height: 1em;  
+}
+
+
+.text1 p 
+{
+    color: black;
+    font-size: 0.8em;
+    font-family: 'Poppins';
+    margin-top: 10px;
+    text-transform: uppercase;
+    line-height: 1em;     
+}
+.text1 ul
+{
+    color: black;
+    font-size: 0.8em;
+    font-family: 'Poppins';
+    margin-top: 8px;
+    text-transform: uppercase;
+    line-height: 1.8em;        
+}
